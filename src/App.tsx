@@ -1,5 +1,6 @@
 import BlueprintPage from './pages/BlueprintPage';
 import CreateContractPage from './pages/CreateContractPage';
+import DashboardPage from './pages/DashboardPage';
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <BlueprintPage />
       <hr />
       <CreateContractPage />
+      <hr />
+      <DashboardPage />
     </>
   );
 }
